@@ -3,9 +3,9 @@ Docker image contain MySQL toolkits, include innotop, xtrabackup, percona-toolki
 
 
 ## Usage
-1. build it
-  docker build -t mysql_toolkit:1.0 .
-2. find the image id
-  docker images | grep mysql_toolkit
-3. run it
-docker run -it <image_id> /bin/bash
+###build it
+    docker build -t mysql_toolkit:1.0 .
+###find the image id
+    docker images | grep mysql_toolkit
+###run it
+    docker run -it <image_id> /bin/bash
