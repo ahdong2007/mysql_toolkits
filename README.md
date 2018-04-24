@@ -1,5 +1,5 @@
 # mysql_toolkits
-Docker image contain MySQL toolkits, include innotop, xtrabackup, percona-toolkit, etc.
+MySQL toolkits Docker image, include innotop, xtrabackup, percona-toolkit, etc.
 
 
 ## Usage
