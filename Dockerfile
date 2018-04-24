@@ -2,7 +2,6 @@
 From centos:7.4.1708
 
 ADD . /root/src/
-ADD wget /usr/bin/
 
 RUN yum install -y perl libaio-* numactl-libs-*
 RUN cd /root/src && tar -xvf percona-toolkit-3.0.2-r462c006-el7-x86_64-bundle.tar
